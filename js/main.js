@@ -92,7 +92,15 @@ $(document).ready(function() {
 
 
 
-
+	
+	$('.hider').click(function() {
+		$('.hiderBody').hide();
+		$('.hiderHead').css("background", "#aaa");
+		$('.hiderHead i').html("keyboard_arrow_down");
+		$('.hiderHead i', this).html("keyboard_arrow_up");
+		$('.hiderHead', this).css("background", "#4286f4");
+		$('.hiderBody', this).fadeIn();
+	});
 
 
 

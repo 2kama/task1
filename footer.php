@@ -66,7 +66,7 @@
                   <div class="half">
                      <div class="blue big">CERTIFICATES </div><b>(3)</b>
                      <p>Your latest certificates</p>
-                     <button class="btnBlue">View all</button>
+                     <button class="btnBlue sax">View all</button>
                   </div>
 
                   <div class="half">

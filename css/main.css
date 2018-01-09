@@ -47,17 +47,22 @@ body, html {
   -ms-tab-highlight-color: rgba(0,0,0,0);
   color: #333;
 }
-input:focus, button:focus, button:active, textarea:focus {
+input:focus, button:focus, button:active, textarea:focus, select:focus, select:active {
     outline: none;
 }
 a {
   text-decoration: none;
 }
+button a {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
 
 
 
 /** global styles **/
-div, span, input, textarea, button, a, ul, li, i, h1, h2, h3, h4, h5, h6, form, textarea {
+div, span, input, textarea, button, a, ul, li, i, h1, h2, h3, h4, h5, h6, form, textarea, sup {
 	float: left;
 	box-sizing: border-box;
 	position: relative;
@@ -383,6 +388,10 @@ header ul {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 }
+.btnMid {
+	width: 33%;
+	margin-left: 33%;
+}
 .btnReach {
 	width: 100%;
 	height: 100%;
@@ -392,6 +401,26 @@ header ul {
 }
 .btnRed {
 	background: #c42727;
+}
+.red {
+	color: #c42727;
+}
+.btnBlack {
+	background: #000;
+}
+.btnHerd {
+	font-size: 15px;
+	width: 80%;
+	margin-left: 10%;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+sup {
+	color: #333;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
 }
 .btnSmall {
 	padding: 5px;
@@ -526,6 +555,9 @@ header ul {
 			.podBlock {
                  width: 100%;
               }
+              .halves {
+              	width: 50%;
+              }
               .half {
                  width: 49%;
                  margin-right: 1%;
@@ -551,7 +583,7 @@ header ul {
                  font-size: 12px;
                  margin: 0px;
               }
-              .half button {
+              button.sax {
                  font-size: 11px;
                  width: 80px;
                  padding: 5px;
@@ -588,6 +620,7 @@ header ul {
 }
 .menuTab a {
 	width: 100%;
+	color: #ddd;
 }
 .pageTab {
    width: 100%;
@@ -619,6 +652,15 @@ header ul {
    font-weight: bold;
    font-size: 13px;
 }
+.center {
+	text-align: center;
+}
+p.center {
+	font-size: 14px;
+	width: 100%;
+}
+
+
 
 
 
@@ -801,6 +843,7 @@ footer {
 
 .case {
 	width: 100%;
+	padding: 10px;
 }
 			        	.caseHead {
 			        		font-size: 18px;
@@ -808,17 +851,63 @@ footer {
 			        		width: 100%;
 			        		margin-bottom: 15px;
 			        	}
+			        	.caseHeader {
+			        		font-size: 25px;
+			        		margin-top: 20px;
+			        		width: 100%;
+			        	}
 			        	.caseBody {
 			        		font-size: 15px;
 			        		width: 100%;
 			        		margin-bottom: 15px;
 			        	}
-			        	.caseBody ul {
+			        	.caseBody ul.pin {
 			        		width: 100%;
+			        		list-style-type: none;
+			        		padding: 0px;
 			        	}
-			        	.caseBody ul li {
+			        	.caseBody ul.pin li {
 			        		width: 100%;
+			        		font-size: 16px;
+			        		margin-bottom: 20px;
 			        	}
+			        	.caseBody ul.pin li i {
+			        		width: 8%;
+			        		height: 100%;
+			        		font-size: 25px;
+			        		text-align: center;
+
+			        	}
+			        	.caseBody ul.pin li span {
+			        		font-size: 16px;
+			        		width: 90%;
+			        		float: right;
+			        	}
+.curri {
+	width: 100%;
+	border: 1px solid #ddd;
+	margin-bottom: 50px;
+}
+.curriHead {
+	width: 100%;
+	padding: 16px;
+	font-weight: bold;
+}
+.curriBody {
+	width: 100%;
+	background: #eee;
+	padding: 15px;
+	font-weight: bold;
+}
+.curriBody span {
+	width: 100%;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.curriBody p {
+	width: 100%;
+	font-size: 14px;
+}
 form {
 	width: 90%;
 	margin-left: 5%;
@@ -853,6 +942,84 @@ form a i {
 	color: #fff;
 	margin-right: 7px;
 }
+.change {
+	width: 100%;
+	padding: 7px;
+}
+span {
+	font-weight: bold;
+	font-size: 15px;
+	margin-right: 7px;
+}
+select {
+	height: 35px;
+	margin-top: -24px;
+	width: 225px;
+	border: 1px solid #ddd;
+	color: #aaa;
+	font-weight: bold;
+}
+
+
+.hider {
+	width: 100%;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	color: #fff;
+}
+.hiderHead {
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background: #aaa;
+	cursor: pointer;
+}
+.hiderHead i {
+	color: #fff;
+	font-size: 22px;
+	margin-right: 15px;
+}
+.hiderBody {
+	padding: 20px;
+	overflow: hidden;
+	display: none;
+	font-size: 14px;
+	color: #444;
+}
+.slab {
+	width: 100%;
+	margin-bottom: 6px;
+}
+.slabL, .slabR {
+	width: 50%;
+}
+.slabL {
+	color: #aaa;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: bold;
+}
+.slabR {
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+}
+.bigHead {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 60px;
+}
+.underline {
+	width: 33%;
+	height: 3px;
+	background: #111;
+	margin-left: 33%;
+	margin-bottom: 30px;
+}
 
 
 
@@ -883,6 +1050,7 @@ form a i {
      	 width: 100%;
      	 margin: 0;
      }
+
 
   }
 
@@ -1001,6 +1169,14 @@ form a i {
 	.menuTab {
 		width: 20%;
 	}
+	.halves {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.btnMid {
+	width: 70%;
+	margin-left: 15%;
+}
 }
 
 

@@ -66,7 +66,7 @@
 			            	</div>
 			            </div>
 
-			            <button class="btnLarge btnRed">Start Learning</button>
+			             <button class="btnLarge btnRed"><a href="video">Start Learning</a></button>
 
 
 			            <div class="case">
@@ -86,45 +86,8 @@
 			            	</div>
 
 
-			            	
 
-
-
-			            </div>
-			        </div>
-
-			        <div id="tab2" class="tab">
-			            <div class="caseHead">Objectives</div>
-			            <div class="caseBody">
-			            	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at elementum. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc. Vel pretium lectus quam id leo in vitae turpis. Nisi scelerisque eu ultrices vitae. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Eget aliquet nibh praesent tristique magna sit amet. Id diam maecenas ultricies mi eget mauris pharetra et. Egestas dui id ornare arcu odio ut sem nulla.
-			            </div>
-			        </div>
-			 
-			        <div id="tab3" class="tab">
-			            <div class="caseHead">Curriculum</div>
-			            <div class="caseBody">
-			            	<p>
-			            		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi leo urna molestie at elementum. Ut diam quam nulla porttitor massa id neque aliquam vestibulum. Vel turpis nunc eget lorem dolor sed viverra ipsum nunc. Vel pretium lectus quam id leo in vitae turpis. Nisi scelerisque eu ultrices vitae. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Eget aliquet nibh praesent tristique magna sit amet. Id diam maecenas ultricies mi eget mauris pharetra et. Egestas dui id ornare arcu odio ut sem nulla.
-			            	</p>
-			            	<ul>
-			            		<li>Lorem ipsum dolor sit amet consectetur adipiscing elit, se do eiusmod.</li>
-			            		<li>Lorem ipsum dolor sit amet consectetur adipiscing elit, se do eiusmod.</li>
-			            		<li>Lorem ipsum dolor sit amet consectetur adipiscing elit, se do eiusmod.</li>
-			            		<li>Lorem ipsum dolor sit amet consectetur adipiscing elit, se do eiusmod.</li>
-			            	</ul>
-			            </div>
-			        </div>
-
-
-
-			        
-			    </div>
-			</div>
-
-
-
-
-			<div class="caseHead">Share your views below</div>
+			            	<div class="caseHead">Share your views below</div>
 			            	<div class="caseBody">
 
 			            		<div class="comment">
@@ -167,7 +130,110 @@
 			            	</div>
 
 
-	</div>
+			            	
+
+
+
+			            </div>
+			        </div>
+
+			        <div id="tab2" class="tab">
+			          <div class="case">
+			            <div class="caseHeader blue center">What will you achieve?</div>
+			            <p class="center">By the end of the course: you'd be able to:</p>
+			            <div class="caseBody">
+			            	<ul class="pin">
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Investigate how the aggregate deemed sales price and adjusted Gross up basis are determined. </span>
+			            		</li>
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Identify the mechanism of an IRC 338(h)10 transaction.</span>
+			            		</li>
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Investigate how the aggregate deemed sales price and adjusted Gross up basis are determined. </span>
+			            		</li>
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Identify the mechanism of an IRC 338(h)10 transaction.</span>
+			            		</li>
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Investigate how the aggregate deemed sales price and adjusted Gross up basis are determined. </span>
+			            		</li>
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Identify the mechanism of an IRC 338(h)10 transaction.</span>
+			            		</li>
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Investigate how the aggregate deemed sales price and adjusted Gross up basis are determined. </span>
+			            		</li>
+			            		<li>
+			            			<i class="material-icons">check_box</i>
+			            			<span>Identify the mechanism of an IRC 338(h)10 transaction.</span>
+			            		</li>
+			            		
+			            	</ul>
+			            </div>
+			            </div>
+
+
+			              <button class="btnLarge btnRed"><a href="video">Start Learning</a></button>
+
+
+			        </div>
+			 
+			        <div id="tab3" class="tab">
+			          <div class="case">
+			            <div class="caseHeader blue center">Course Curriculum</div>
+			            <p class="center">What topics will you cover?</p>
+			            <div class="caseBody">
+
+			            	<div class="curri">
+			            		<div class="curriHead">Week 1</div>
+			            		<div class="curriBody">
+			            			<span>Consolidation</span>
+			            			<p>Equity methods of consolidation and the cost method, its sub-categories, and consolidation</p>
+			            		</div>
+			            	</div>
+
+			            	<div class="curri">
+			            		<div class="curriHead">Week 2</div>
+			            		<div class="curriBody">
+			            			<span>Purchase Accounting and Special Topics</span>
+			            			<p>Explore purchase accounting in details and other areas like Internal Revenue Code section 338, tax deductible goodwill and intangibles.</p>
+			            		</div>
+			            	</div>
+
+
+			            </div>
+
+<style>
+
+</style>
+
+			            <button class="btnLarge btnRed"><a href="video">Start Learning</a></button>
+
+
+			            </div>
+			        </div>
+
+
+
+			        
+			    </div>
+			</div>
+
+
+
+
+						
+
+
+						</div>
 
 
 

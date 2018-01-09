@@ -30,28 +30,28 @@
     <div class="menuTab">
        
 
-       <a href="dashboard"><div class="pageTab">
-         <div class="tabing"><i class="material-icons">library_books</i><span>My Courses</span></div>
+       <div class="pageTab">
+         <div class="tabing"><a href="dashboard"><i class="material-icons">library_books</i><span>My Courses</span></a></div>
+       </div>
+       <div class="pageTab">
+         <div class="tabing"><a href="dashboard"><i class="material-icons">person</i><span>My Profile</span></a></div>
+       </div>
+       <div class="pageTab">
+         <div class="tabing"><a href="dashboard"><i class="material-icons">folder</i><span>Course Catalog</span></a></div>
+       </div>
+       <div class="pageTab">
+         <div class="tabing"><a href="dashboard"><i class="material-icons">video_library</i><span>Videos</span></a></div>
+       </div>
+       <div class="pageTab">
+         <div class="tabing"><a href="dashboard"><i class="material-icons">people</i><span>Forums</span></a></div>
+       </div>
+       <a href="certificate"><div class="pageTab">
+         <div class="tabing"><a href="certificate"><i class="material-icons">turned_in</i><span>My Certificates</span></a></div>
        </div></a>
        <div class="pageTab">
-         <div class="tabing"><i class="material-icons">person</i><span>My Profile</span></div>
+         <div class="tabing"><a href="support"><i class="material-icons">language</i><span>Support Center</span></a></div>
        </div>
        <div class="pageTab">
-         <div class="tabing"><i class="material-icons">folder</i><span>Course Catalog</span></div>
-       </div>
-       <div class="pageTab">
-         <div class="tabing"><i class="material-icons">video_library</i><span>Videos</span></div>
-       </div>
-       <div class="pageTab">
-         <div class="tabing"><i class="material-icons">people</i><span>Forums</span></div>
-       </div>
-       <div class="pageTab">
-         <div class="tabing"><i class="material-icons">turned_in</i><span>My Certificates</span></div>
-       </div>
-       <div class="pageTab">
-         <div class="tabing"><i class="material-icons">language</i><span>Support Center</span></div>
-       </div>
-       <div class="pageTab">
-         <div class="tabing"><i class="material-icons">today</i><span>Learning Calendar</span></div>
+         <div class="tabing"><a href="dashboard"><i class="material-icons">today</i><span>Learning Calendar</span></a></div>
        </div>
     </div>
