@@ -12,12 +12,12 @@
 </style>
 
 
+
 <div class="wrapper">
 
   <div class="breadcrum">
     <div class="col8">
-      <div class="headcrum">Build Communication Skills for Professional Success</div>
-      <div class="bodycrum">Master business writing, graphic design and business presentation</div>
+       <button class="btnRed btnSmall"><i class="material-icons">arrow_left</i><span>Go Back</span> &emsp;</button>
     </div>
     <div class="col4">
       <div class="headcrum">Customer Service Representative</div>
@@ -27,73 +27,169 @@
       </div>
     </div>
   </div>
-
-
-  <div class="searchArea"></div>
   
-  <div class="week">
-    <div class="content">
-        <div class="col9">
-              
-              <a href="#"><div class="weekTab activeWeek">
-                <div class="weekly">WEEK</div>
-                <div class="weekNum">1</div>
-                <i class="material-icons">arrow_drop_down</i>
-              </div>
-              </a>
 
-            <a href="#">
-              <div class="weekTab">
-                <div class="weekly">WEEK</div>
-                <div class="weekNum">2</div>
-                <i class="material-icons">arrow_drop_down</i>
-              </div>
-             </a>
-
-             <a href="#">
-              <div class="weekTab">
-                <div class="weekly">WEEK</div>
-                <div class="weekNum">3</div>
-                <i class="material-icons">arrow_drop_down</i>
-              </div>
-             </a>
-
-        </div>
-    </div>
-  </div>
-
-
+  
   <div class="videoTab">
 
 
-     <div class="content" style="background: transparent;">
-         <div class="col9">
+        <!-- video section -->
+         <div class="col99 show">
+
+          <div class="videoTopic">
+              <div class="topicTop">FINANCE FUNDAMENTALS:</div>
+              <div class="topicBtm">Financial Planning and Budgeting</div>
+          </div>
               
               <video src="videos/test.mp4" controls></video>
 
               <div class="hightlight">
                  <div class="vTopic">Course Introduction and Objectives</div>
+
+                 <div class="vLike">
+                    <i class="material-icons">thumb_up</i> <span>32</span>
+                    <i class="material-icons">thumb_down</i> <span>3</span>
+                 </div>
+
                  <div class="vTime">20 mins</div>
+                 
               </div>
 
+      
+      <div class="addComment" style="float: left;width: auto;"><span style="color:#222;">View Video transscript</span><i class="material-icons" style="color:#222;">content_copy</i></div>
+      <div class="addComment" style="float: left;width: auto;"><span style="color: #E11DD2;">Contribute to this course</span><i class="material-icons pink">comments</i> &emsp;  &emsp; </div>
 
-              <div class="module">
-                 <a href="#"><div class="mod active">TOPIC 1</div></a>
-                 <a href="#"><div class="mod">TOPIC 2</div></a>
-                 <a href="#"><div class="mod">TOPIC 3</div></a>
-                 <a href="#"><div class="mod">TOPIC 4</div></a>
-              </div>
+        
+      <button class="btnPink btnHerd"><span>Mark as complete</span><i class="material-icons">check</i></button>
+      
+      
 
          </div>
-     </div>
-  </div>
 
+        <!-- end of video section -->
+
+
+
+
+        <!-- text section -->
+         <div class="col99">
+
+          <div class="videoTopic">
+              <div class="topicTop">FINANCE FUNDAMENTALS:</div>
+              <div class="topicBtm">Financial Planning and Budgeting</div>
+          </div>
+              
+              <div class="viewArea">
+                 <img src="img/slide.png" alt="">
+              </div>
+
+              <div class="hightlight">
+                  <center><button class="btn btnMid btnBlack">Next Slide</button></center>    
+
+                 <div class="vLike">
+                    <i class="material-icons">thumb_up</i> <span>32</span>
+                    <i class="material-icons">thumb_down</i> <span>3</span>
+                 </div>
+
+                 
+              </div>
+
+      
+      
+      <div class="addComment" style="float: left;width: auto;"><span style="color: #E11DD2;">Contribute to this course</span><i class="material-icons pink">comments</i> &emsp;  &emsp; </div>
+
+        
+      <button class="btnPink btnHerd"><span>Mark as complete</span><i class="material-icons">check</i></button>
+      
+      
+
+         </div>
+
+        <!-- end of text section -->
+
+
+
+
+
+         <div class="courseMenu">
+            <div class="courseMod">
+               
+               <!-- lesson tab -->
+                <div class="lessonTab active">
+                   <div class="module">1.1</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>VIDEO (02:30)</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+
+                <!-- lesson tab -->
+                <div class="lessonTab">
+                   <div class="module">1.2</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>TEXT</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+
+
+                <!-- lesson tab -->
+                <div class="lessonTab">
+                   <div class="module">1.3</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>VIDEO (02:30)</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+
+                <!-- lesson tab -->
+                <div class="lessonTab">
+                   <div class="module">1.4</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>TEXT</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+
+                <!-- lesson tab -->
+                <div class="lessonTab">
+                   <div class="module">1.5</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>TEXT</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+
+                <!-- lesson tab -->
+                <div class="lessonTab">
+                   <div class="module">1.6</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>TEXT</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+
+                <!-- lesson tab -->
+                <div class="lessonTab">
+                   <div class="module">1.7</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>VIDEO (02:30)</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+                <!-- lesson tab -->
+                <div class="lessonTab">
+                   <div class="module">1.8</div>
+                   <div class="moduleTp"><div class="moduleT">FINANCES AND THE LIFE COURSE &emsp; <i>VIDEO (02:30)</i></div></div>
+                </div>
+                <!-- end of lesson tab -->
+
+            </div>
+            <a href="#" class="Lessona"><div class="nextLesson">
+               <span>GO TO</span><i class="material-icons">arrow_forward</i><b>NEXT MODULE</b>
+            </div></a>
+         </div>
+
+     
+  </div>
 
   <div class="content">
     
     <div class="col9">
-          <div class="addComment"><span class="blue">Contribute to this course</span><i class="material-icons blue" style="float: right;">comments</i></div>
-
+          
 
           <div class="case">
               <div class="long">
@@ -125,6 +221,10 @@
           </div>      
 
     </div>
+
+
+  <script src="js/video.js"></script>
+
 
 
 <?php include('footer.php'); ?>

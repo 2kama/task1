@@ -46,6 +46,12 @@
   <div class="space"></div>
 
   <div class="pod">
+     <div class="advert"></div>
+  </div>
+
+  <div class="space"></div>
+
+  <div class="pod">
     <div class="line borderBottomGrey">Awards/Certificates</div>
     <div class="podBlock">
       <div class="podItem">
@@ -73,13 +79,13 @@
 <footer>
   <div class="foot">&copy;2017 - LEARNING MANAGEMENT SYSTEM</div>
   <div class="power">
-    <img src="img/sbsc.png" alt=""><span>Powered by: </span>
+  
   </div>
 </footer>
 
 
 
-<script src="js/jquery.js"></script>
+
 <script src="js/main.js"></script>
 
 </body>

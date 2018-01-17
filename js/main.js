@@ -56,6 +56,10 @@ $(document).ready(function () {
 		$(this).toggleClass("down");
 	});
 
+
+
+	//tabs in course page
+
 	$('.tabs .tab-links a').on('click', function (e) {
 		var currentAttrValue = $(this).attr('href');
 		// Show/Hide Tabs
@@ -72,6 +76,35 @@ $(document).ready(function () {
 		$('.hiderHead i', this).html("keyboard_arrow_up");
 		$('.hiderHead', this).css("background", "#4286f4");
 		$('.hiderBody', this).fadeIn();
+	});
+
+
+
+
+
+
+  //notification, msg and profile pop up
+
+
+	$('.msg').click(function() {
+		
+		$('.msgBox').toggleClass("showPop");
+		$('.notyBox, .probBox').removeClass("showPop");
+
+	});
+
+	$('.noty').click(function() {
+		
+		$('.notyBox').toggleClass("showPop");
+		$('.msgBox, .probBox').removeClass("showPop");
+
+	});
+
+	$('.user').click(function() {
+
+		$('.probBox').toggleClass("showPop");
+		$('.msgBox, .notyBox').removeClass("showPop");
+
 	});
 
 	

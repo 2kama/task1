@@ -118,12 +118,18 @@ a.button {
 }
  header ul li {
      margin-right: 40px;
+
 }
  header ul li i {
      font-size: 20px;
      color: #333;
      margin-top: 3px;
      cursor: pointer;
+     tab-highlight-color: rgba(0,0,0,0);
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
+     -o-tab-highlight-color: rgba(0,0,0,0);
+     -moz-tab-highlight-color: rgba(0,0,0,0);
+     -ms-tab-highlight-color: rgba(0,0,0,0);
 }
  header ul li h6 {
      font-size: 15px;
@@ -292,6 +298,9 @@ a.button {
  .blue {
      color: #4286f4;
 }
+.pink {
+     color: #E11DD2;
+}
  .borderBottomGrey {
      border-bottom: 3px solid #bbb;
 }
@@ -402,6 +411,9 @@ a.button {
  .btnBlue {
      background: #4286f4;
 }
+.btnPink {
+     background: #E11DD2;
+}
  .btnRed {
      background: #AB192D;
 }
@@ -411,6 +423,12 @@ a.button {
  .btnBlack {
      background: #000;
 }
+.btnPink.btnHerd {
+          width: auto;
+          float: right;
+          font-weight: normal !important;
+          margin-top: 20px;
+       }
  .btnHerd {
      font-size: 15px;
      width: 80%;
@@ -528,6 +546,12 @@ a.button {
      width: 100%;
      padding: 15px;
 }
+.advert {
+ width: 90%;
+ margin-left: 5%;
+ height: 200px;
+ background: #ddd;
+}
 
  .podItem {
      width: 100%;
@@ -605,13 +629,16 @@ a.button {
  .menuTab {
      position: absolute;
      width: 12%;
-     padding: 20px;
      background: #313642;
      top: 200px;
      margin-left: 7%;
      min-height: 30px;
      z-index: 9;
      border-top: 30px solid #961c1c;
+}
+.sack {
+  width: 100%;
+  padding: 20px;
 }
  .menuTab.show{
      margin-left: 0%;
@@ -657,6 +684,26 @@ a.button {
      margin-top: 10px;
      font-weight: bold;
      font-size: 13px;
+}
+
+.log.smack {
+       width: 100%;
+       background: #333;
+       color: #fff;
+       padding: 7px;
+    }
+    .log.smack i {
+       margin-left: 22%;
+       font-size: 14px;
+       margin-right: 4px;
+       margin-top: 2px;
+    }
+    .log.smack span {
+       font-weight: normal;
+       font-size: 13px;
+    }
+.mylog {
+     display: none;
 }
 
 
@@ -1063,61 +1110,17 @@ form.report textarea {
 }
 
 
-.week {
-  width: 100%;
-}
-   .weekTab {
-      width: 150px;
-      color: #fff;
-      margin: 8px 5px 0px; 5px;
-      background: #333;
-      margin-top: -10px;
-   }
-
-   .weekly {
-      width: 100%;
-      text-align: center;
-      font-size: 14px;
-      padding-top: 10px;
-   }
-
-   .weekNum {
-      width: 100%;
-      font-size: 22px;
-      text-align: center;
-      font-weight: bold;
-      padding-top: 2px;
-      padding-bottom: 5px;
-   }
-
-   .weekTab i {
-     width: 100%;
-     padding: 10px;
-     text-align: center;
-     font-size: 50px;
-     color: #fff;
-     background: #fff;
-     padding-top: 0px;
-
-   }
-
-   .weekTab.activeWeek, .weekTab:hover {
-     background: #4286f4;
-   }
-   .weekTab.activeWeek i, .weekTab:hover i {
-      color: #4286f4;
-   }
-
-
-
 
 .videoTab {
      width: 100%;
-     background: #444;
-     padding-top: 20px;
+     background: #fff;
+     padding: 20px 0px 20px 0px;
   }
-  video {
+  video, .viewArea {
      width: 100%;
+  }
+  .viewArea img {
+      width: 100%;
   }
   .hightlight {
      float: left;
@@ -1127,8 +1130,13 @@ form.report textarea {
      background: #222;
      color: #fff;
   }
+  .hightlight button {
+      margin-bottom: 5px;
+      font-size: 12px;
+      width: auto;
+  }
   .vTopic {
-     width: 100%;
+     width: auto;
      font-weight: bold;
      font-size: 13px;
   }
@@ -1139,26 +1147,6 @@ form.report textarea {
   }
 
 
-  .module {
-   width: 100%;
-   margin-top: 20px;
-
-}
-.mod {
-   padding: 10px 20px 10px 20px;
-   background: #222;
-   color: #ccc;
-   text-align: center;
-   font-size: 16px; 
-   margin-left: 6px;
-   font-weight: bold;
-   margin-bottom: 7px;
-}
-
-.mod.active, .mod:hover {
-  color: #4286f4;
-  border-right: 3px solid #4286f4;
-}
 
 
 
@@ -1354,6 +1342,255 @@ form.loginForm h5 {
 
 
 
+/** noty and msg pop **/
+
+ .infoTab {
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;
+  }
+  .infoTab a p {
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     color: #aaa;
+  }
+  .infoTab a p b {
+     font-weight: bold;
+  }
+  .infoTab b {
+     font-weight: normal;
+  }
+  .infoTab .infoAct {
+    
+    float: right;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .msgBox .infoAct {
+     color: #AB192D;
+  }
+  .notyBox .infoAct {
+     color: #4286f4;
+  }
+
+    .popBox {
+       position: fixed;
+       width: 300px;
+       float: right;
+       
+       top: 50px;
+       z-index: 30;
+       background: #fff;
+       box-shadow: 0px 10px 10px rgba(58, 58, 58, 0.1);
+       display: none;
+    }
+    .popBox.showPop {
+       display: block;
+    }
+    .msgBox {
+       border-top: 3px solid #AB192D;
+       right: 30%;
+    }
+    .notyBox {
+       border-top: 3px solid #4286f4;
+       right: 26%;
+    }
+    .msgBox .hD {
+       color: #AB192D;
+    }
+    .notyBox .hD {
+       color: #4286f4;
+    }
+    .msgBox .eD {
+       background: #AB192D;
+    }
+    .notyBox .eD {
+       background: #4286f4;
+    }
+    .bD {
+        max-height: 300px;
+        overflow-y: auto;
+        width: 100%;
+    }
+    .hD {
+       width: 100%;
+       padding: 7px;
+       font-size: 14px;
+       text-align: center;
+       font-weight: bold;
+    }
+    .eD {
+       width: 100%;
+       margin-top: 15px;
+       padding: 5px 10px 5px 10px;
+       text-align: center;
+       color: #fff;
+       font-size: 12px;
+    }
+
+    .probBox {
+      width: 150px;
+      padding: 5px;
+      background: #fff;
+      box-shadow: 0px 10px 10px rgba(58, 58, 58, 0.3);
+      float: right;
+      right: 10%;
+      position: fixed;
+      top: 50px;
+      z-index: 30;
+      display: none;
+  }
+  .probBox.showPop{
+     display: block;
+  }
+  .probBox a {
+     width: 100%;
+  }
+  .probBox a span {
+     width: 100%;
+     font-weight: normal;
+     font-size: 14px;
+     padding: 7px;
+     padding-left: 15px;
+     color: #aaa;
+  }
+
+
+  /** video **/
+
+
+
+   .vLike {
+     float: right;
+     width: auto;
+  }
+  .vLike i {
+     font-size: 14px;
+     color: #fff;
+     margin-right: 4px;
+     cursor: pointer;
+  }
+  .vLike span {
+     font-size: 14px;
+     color: #fff;
+     font-weight: normal;
+     margin-right: 15px;
+  }
+  .lessonTab {
+     width: 100%;
+     background: #fff;
+     padding: 13px 10px 13px 20px;
+     font-size: 14px; 
+     cursor: pointer;
+
+  }
+  .module {
+     width: 16%;
+     text-align: center;
+     color: #333;
+     background: #aaa;
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     padding: 4px;
+     font-weight: bold;
+  }
+  .lessonTab.active .module {
+     background: #4286f4;
+     color: #fff;
+  }
+  .moduleTp {
+     width: 84%;
+     padding: 4px 10px;
+  }
+  .moduleT {
+     font-weight: bold;
+     color: #666;
+  }
+  .lessonTab.active .moduleT {
+     color: #4286f4;
+  }
+  .lessonTab.active .moduleT i {
+     color: #4286f4;
+  }
+  .moduleT i{
+    color: #bbb;
+    float: right;
+    font-size: 12px;
+  }
+.col99 {
+   width: 74%;
+   float: right;
+   margin-right: 5%;
+   padding-left: 15px;
+  
+   display: none;
+  
+}
+.col99.show {
+     display: block;
+}
+.courseMenu {
+   width: 21%;
+  border-right: 2px solid #4286f4;
+  margin-top: 70px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.courseMod {
+   width: 100%;
+   height: 500px;
+   overflow-y: auto;
+}
+.Lessona {
+   width: 100%;
+}
+.nextLesson {
+   width: 100%;
+   padding: 20px 25px 20px 30px;
+   background: #4286f4;
+   color: #fff;
+}
+
+.nextLesson span {
+   font-size: 14px;
+   font-weight: normal;
+   margin-right: 10px;
+}
+.nextLesson i {
+   font-size: 14px;
+   margin-top: 3px;
+   margin-right: 10px;
+}
+.nextLesson b {
+   font-size: 14px;
+}
+.videoTopic {
+   width: 100%;
+   padding: 25px 0px 15px 0px;
+}
+.topicTop {
+   width: 100%;
+   padding-left: 5px;
+   font-size: 21px;
+   font-weight: bold;
+}
+.topicBtm {
+    width: 100%;
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #aaa;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    padding-top: 7px;
+}
+
+
+
+
 
 
  @media(max-width: 1200px) {
@@ -1382,6 +1619,18 @@ form.loginForm h5 {
      .double2 {
         width: 60%;
      }
+
+  .col99 {
+   width: 65%;
+}
+.courseMenu {
+   width: 30%;
+}
+.courseMod {
+   height: 400px;
+}
+
+
 }
 
 
@@ -1406,9 +1655,11 @@ form.loginForm h5 {
     }
      .menuTab {
          width: 15%;
-         padding: 15px;
          margin-left: 4%;
          border-top: 19px solid #961c1c;
+    }
+    .sack {
+       padding: 15px;
     }
      .pen button {
          font-size: 13px;
@@ -1485,10 +1736,18 @@ form.loginForm h5 {
          position: fixed;
          overflow-y: auto;
          height: 100vh;
-         padding: 5px;
-         padding-bottom: 50px;
          width: 17%;
          border-top: 0px solid transparent;
+    }
+    .mylog {
+      display: block;
+    }
+    .log {
+      display: none;
+    }
+    .sack {
+      padding: 5px;
+       padding-bottom: 50px;
     }
      .tabing span {
          font-size: 11px;
@@ -1497,13 +1756,32 @@ form.loginForm h5 {
          font-size: 17px;
     }
 
-    .weekTab {
-       width: 100px;
-    }
+
     .col44 {
       width: 48%;
       margin-right: 2%;
     }
+
+.col99 {
+   width: 90%;
+   margin-left: 5%;
+   float: left;
+  
+}
+.courseMenu {
+   width: 90%;
+   margin-left: 5%;
+   margin-top: 20px;
+   padding-right: 0px;
+   border-right: 0px solid transparent;
+}
+.courseMod {
+   height: auto;
+
+}
+.module {
+     width: 40px;
+}
 }
 
 
@@ -1653,12 +1931,38 @@ form.loginForm h5 {
          margin-left: 0px;
     }
 
-    .weekTab {
-       width: 70px;
-    }
     .col44 {
       width: 100%;
       margin-right: 0px;
     }
+    .col99 {
+       width: 100%;
+       margin-left: 0%;
+       margin-right: 0%;
+       padding: 0px;
+    }
+    .btnPink.btnHerd {
+       float: left;
+       margin-left: 5%;
+    }
 }
+
+
+
+
+
+
+
+
+    @media(max-width: 480px) {
+        .popBox {
+           width: 90%;
+           margin-left: 5%;
+           margin-right: 5%;
+           right: 0;
+        }
+        .bD {
+          max-height: 75vh;
+        }
+    }
  
